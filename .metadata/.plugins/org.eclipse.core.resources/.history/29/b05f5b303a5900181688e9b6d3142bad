@@ -5,7 +5,6 @@ import javafx.geometry.Pos;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.layout.StackPane;
-import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 public class Tron extends Application {
     public static void main(String[] args) {
@@ -20,12 +19,14 @@ public class Tron extends Application {
         Button btn = new Button("Play Game");
         Button exit = new Button("Exit Game");
         
+        btn.setAlignment(Pos.BOTTOM_LEFT);
+        exit.setAlignment(Pos.BASELINE_LEFT);
+        
         exit.setOnAction(e -> System.exit(0));
         btn.setOnAction(e -> System.out.print("Run Game"));
         
-        VBox root = new VBox();
+        StackPane root = new StackPane();
         root.getChildren().addAll(btn,exit);
-           
         
         primaryStage.setScene(new Scene(root, 500, 500));
         

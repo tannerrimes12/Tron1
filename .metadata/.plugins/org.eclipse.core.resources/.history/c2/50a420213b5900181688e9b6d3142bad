@@ -25,7 +25,9 @@ public class Tron extends Application {
         
         VBox root = new VBox();
         root.getChildren().addAll(btn,exit);
-           
+        
+        exit.setAlignment(Pos.BASELINE_LEFT);
+        btn.setAlignment(Pos.BASELINE_RIGHT);    
         
         primaryStage.setScene(new Scene(root, 500, 500));
         
