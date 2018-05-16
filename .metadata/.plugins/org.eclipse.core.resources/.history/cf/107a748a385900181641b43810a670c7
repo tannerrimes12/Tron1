@@ -17,7 +17,7 @@ public class Tron extends Application {
         btn.setOnAction(e -> System.out.print("Run Game"));
         StackPane root = new StackPane();
         root.getChildren().addAll(btn,exit);
-        primaryStage.setScene(new Scene(root, 500, 500));
+        primaryStage.setScene(new Scene(root, 500, 5000));
         primaryStage.show();
     }
 }
