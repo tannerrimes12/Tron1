@@ -373,7 +373,11 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+<<<<<<< HEAD
 !SESSION 2018-05-17 13:19:42.915 -----------------------------------------------
+=======
+!SESSION 2018-05-17 13:18:27.223 -----------------------------------------------
+>>>>>>> db9a184f6e018882e1bb09938ad54fcd173fd0b9
 eclipse.buildId=4.6.3.M20170301-0400
 java.version=1.8.0_144
 java.vendor=Oracle Corporation
@@ -381,10 +385,17 @@ BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
 Framework arguments:  -product org.eclipse.epp.package.java.product
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
 
+<<<<<<< HEAD
 !ENTRY org.eclipse.e4.ui.workbench 4 0 2018-05-17 13:19:46.332
 !MESSAGE Unable to load resource file:/H:/git/Tron/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.xml.sax.SAXParseExceptionpublicId: file:/H:/git/Tron/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi; systemId: file:/H:/git/Tron/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi; lineNumber: 2; columnNumber: 2; The markup in the document preceding the root element must be well-formed.
+=======
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-05-17 13:18:30.624
+!MESSAGE Unable to load resource file:/C:/Users/hn396246/Documents/GitHub/Tron1/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi
+!STACK 0
+org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.xml.sax.SAXParseExceptionpublicId: file:/C:/Users/hn396246/Documents/GitHub/Tron1/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi; systemId: file:/C:/Users/hn396246/Documents/GitHub/Tron1/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi; lineNumber: 2; columnNumber: 2; The markup in the document preceding the root element must be well-formed.
+>>>>>>> db9a184f6e018882e1bb09938ad54fcd173fd0b9
 	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.handleDemandLoadException(ResourceSetImpl.java:319)
 	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoadHelper(ResourceSetImpl.java:278)
 	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.getResource(ResourceSetImpl.java:406)
@@ -410,7 +421,11 @@ org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException:
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+<<<<<<< HEAD
 Caused by: org.xml.sax.SAXParseExceptionpublicId: file:/H:/git/Tron/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi; systemId: file:/H:/git/Tron/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi; lineNumber: 2; columnNumber: 2; The markup in the document preceding the root element must be well-formed.
+=======
+Caused by: org.xml.sax.SAXParseExceptionpublicId: file:/C:/Users/hn396246/Documents/GitHub/Tron1/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi; systemId: file:/C:/Users/hn396246/Documents/GitHub/Tron1/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi; lineNumber: 2; columnNumber: 2; The markup in the document preceding the root element must be well-formed.
+>>>>>>> db9a184f6e018882e1bb09938ad54fcd173fd0b9
 	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
 	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(Unknown Source)
 	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
@@ -434,7 +449,11 @@ Caused by: org.xml.sax.SAXParseExceptionpublicId: file:/H:/git/Tron/.metadata/.p
 	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoadHelper(ResourceSetImpl.java:274)
 	... 23 more
 
+<<<<<<< HEAD
 !ENTRY org.eclipse.e4.ui.workbench 4 0 2018-05-17 13:19:46.332
+=======
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-05-17 13:18:30.624
+>>>>>>> db9a184f6e018882e1bb09938ad54fcd173fd0b9
 !MESSAGE The persisted workbench has no top-level windows, so reinitializing with defaults.
 !STACK 0
 java.lang.Exception
@@ -459,14 +478,22 @@ java.lang.Exception
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
 
+<<<<<<< HEAD
 !ENTRY org.eclipse.egit.ui 2 0 2018-05-17 13:19:52.141
+=======
+!ENTRY org.eclipse.egit.ui 2 0 2018-05-17 13:18:36.004
+>>>>>>> db9a184f6e018882e1bb09938ad54fcd173fd0b9
 !MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
 user global configuration and to define the default location to store repositories: 'H:\'. If this is
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
 
+<<<<<<< HEAD
 !ENTRY org.eclipse.jdt.ui 4 10001 2018-05-17 13:20:02.386
+=======
+!ENTRY org.eclipse.jdt.ui 4 10001 2018-05-17 13:18:52.342
+>>>>>>> db9a184f6e018882e1bb09938ad54fcd173fd0b9
 !MESSAGE Internal Error
 !STACK 1
 org.eclipse.jdt.internal.ui.JavaUIException: Problems reading information from XML 'QualifiedTypeNameHistory.xml'
@@ -510,7 +537,11 @@ Caused by: org.xml.sax.SAXParseException; lineNumber: 3; columnNumber: 2; The co
 	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(Unknown Source)
 	at org.eclipse.jdt.internal.corext.util.History.load(History.java:261)
 	... 21 more
+<<<<<<< HEAD
 !SUBENTRY 1 org.eclipse.jdt.ui 4 4 2018-05-17 13:20:02.386
+=======
+!SUBENTRY 1 org.eclipse.jdt.ui 4 4 2018-05-17 13:18:52.342
+>>>>>>> db9a184f6e018882e1bb09938ad54fcd173fd0b9
 !MESSAGE Problems reading information from XML 'QualifiedTypeNameHistory.xml'
 !STACK 0
 org.xml.sax.SAXParseException; lineNumber: 3; columnNumber: 2; The content of elements must consist of well-formed character data or markup.
