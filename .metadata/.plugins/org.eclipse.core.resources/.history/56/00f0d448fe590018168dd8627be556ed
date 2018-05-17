@@ -25,7 +25,7 @@ public class Tron extends Application {
         
         HBox root = new HBox();
         root.getChildren().addAll(btn,exit);
-        root.setAlignment(Pos.BOTTOM_CENTER);
+        root.setAlignment(Pos.BOTTOM_CENTER); 
         
         primaryStage.setScene(new Scene(root, 500, 500));
         
