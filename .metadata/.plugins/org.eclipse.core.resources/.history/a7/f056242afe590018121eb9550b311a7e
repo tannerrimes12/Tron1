@@ -28,7 +28,7 @@ public class Tron extends Application {
         root.getChildren().addAll(btn,exit);
         primaryStage.setScene(new Scene(root, 500, 500));
       
-        root.setStyle("-fx-background: #000000;");
+        root.setStyle("-fx-background: #FFFFFF;");
         primaryStage.show();
         
         
