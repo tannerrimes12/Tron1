@@ -25,12 +25,14 @@ public class Tron extends Application {
         
         VBox root = new VBox();
         root.getChildren().addAll(btn,exit);
-          
+<<<<<<< HEAD
+           
+        
         primaryStage.setScene(new Scene(root, 500, 500));
         
-
+=======
         primaryStage.setScene(new Scene(root, 500, 500));
-
+>>>>>>> 7f612d32af008961bf5f8611b4e0b2565d8679cc
         primaryStage.show();
     }
 }
