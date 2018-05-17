@@ -1,14 +1,2 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy>
-<<<<<<< HEAD
-<fullyQualifiedTypeName name="com.sun.prism.paint.Color"/>
-<fullyQualifiedTypeName name="javafx.scene.layout.Background"/>
-<fullyQualifiedTypeName name="java.awt.Insets"/>
-<fullyQualifiedTypeName name="javafx.geometry.Insets"/>
-<fullyQualifiedTypeName name="java.awt.Paint"/>
-<fullyQualifiedTypeName name="java.awt.Color"/>
-<fullyQualifiedTypeName name="javafx.beans.binding.Bindings"/>
-=======
-<fullyQualifiedTypeName name="javafx.scene.layout.HBox"/>
->>>>>>> 4a2841f399def2f17b8d87e37a5d89eab29b0586
-</qualifiedTypeNameHistroy>
+<qualifiedTypeNameHistroy/>
