@@ -12,6 +12,7 @@
 	<section name="completion_proposal_size">
 	</section>
 <<<<<<< HEAD
+<<<<<<< HEAD
 	<section name="JavaElementSearchActions">
 	</section>
 	<section name="org.eclipse.jdt.internal.ui.text.QuickOutline">
@@ -23,4 +24,8 @@
 	</section>
 =======
 >>>>>>> 9ed91048668912b6960dcff1a9fc495c98df3e49
+=======
+	<section name="JavaElementSearchActions">
+	</section>
+>>>>>>> 4a2841f399def2f17b8d87e37a5d89eab29b0586
 </section>
